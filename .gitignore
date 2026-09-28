@@ -1,0 +1,17 @@
+# Antigravity token and secrets (NEVER commit tokens)
+*.oauth-token
+*.token
+antigravity-oauth-token
+token-backups/
+.env
+.env.local
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
